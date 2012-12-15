@@ -1,0 +1,60 @@
+﻿<html>
+<head><title>Options</title>
+<script type="text/javascript" src="options.js"></script>
+</head>
+
+<body>
+<center>
+
+<table height="400" width="600" border="1">
+  <tr height="60">
+    <td align="top">
+		<p>选择时间:</p>
+	</td>
+	<td>
+		<select id="time">
+			<option value="2">02:00</option>
+			<option value="4">04:00</option>
+			<option value="6">06:00</option>
+			<option value="8">08:00</option>
+			<option value="10">10:00</option>
+			<option value="12">12:00</option>
+			<option value="14">14:00</option>
+			<option value="16">16:00</option>
+			<option value="18">18:00</option>
+			<option value="20">20:00</option>
+			<option value="22">22:00</option>
+			<option value="24">24:00</option>			
+		</select>
+	</td>
+    <td>
+		<p>在以下时刻到来前，无法访问列表中的网址:</p>
+		<label id="selectedtime">  </label>
+	</td>
+  </tr>
+  <tr>
+    <td valign="middle" width="40%" height="60" colspan="2">
+		<form>
+			<p>http://<input type="text" id="url" /></p>
+		</form>
+	</td>
+    <td>
+		<p>延迟访问名单:</p> 
+	</td>
+  </tr>
+  <tr>
+    <td align="right" valign="bottom" colspan="2">
+		<button id="btnSave">保存</button>
+		<button id="btnClear">清除</button>
+	</td>
+	<td valign="top">
+		<label id="weblist"></label>
+	</td>
+  </tr>
+</table>
+
+</center>
+
+
+</body>
+</html>
