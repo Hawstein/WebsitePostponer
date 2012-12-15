@@ -16,3 +16,7 @@ WebsitePostponer是一个延迟你登录某些网站的Chrome插件，在你设�
 
 成功安装后，在Chrome扩展页面的地址栏中会出现一个黑底绿字的图标，
 点击它，设置时间及相应的网址。点击保存即可。
+
+## 其他
+
+如果你想了解更多，请戳：[我的博客](http://hawstein.com/posts/website-postponer.html)
